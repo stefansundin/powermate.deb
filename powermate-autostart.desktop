@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[en_US]=PowerMate
+Type=Application
+Exec=/usr/bin/powermate
+Icon=powermate
+X-GNOME-Autostart-enabled=true

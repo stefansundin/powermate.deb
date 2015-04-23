@@ -1,0 +1,18 @@
+Source: powermate
+Section: utils
+Priority: extra
+Maintainer: Stefan Sundin <stefan@stefansundin.com>
+Build-Depends: debhelper (>= 9.20120909), libpulse-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/stefansundin/powermate.deb
+
+Package: powermate
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Small Linux userspace driver for the Griffin PowerMate. Only works with PulseAudio.
+ .
+ Hold down the knob for one second to activate "movie mode". Operation is the same except the LED stays off.
+ .
+ After installing, run `powermate` on the command line. An autostart entry has been added so this should happen automatically on your next login.
+ .
+ PowerMate is a registered trademark of Griffin Technologies Inc. This software is not affiliated or endorsed by them.

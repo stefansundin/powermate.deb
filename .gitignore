@@ -1,0 +1,4 @@
+/powermate
+/files
+*.debhelper.log
+*.substvars
