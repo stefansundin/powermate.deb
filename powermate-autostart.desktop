@@ -3,5 +3,5 @@ Encoding=UTF-8
 Name[en_US]=PowerMate
 Type=Application
 Exec=/usr/bin/powermate
-Icon=powermate
+Icon=/usr/share/pixmaps/powermate.png
 X-GNOME-Autostart-enabled=true
