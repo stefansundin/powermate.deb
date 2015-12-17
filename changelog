@@ -1,3 +1,10 @@
+powermate (4-1) wily; urgency=medium
+
+  * Detect sink change.
+  * Handle louder than 100% better.
+
+ -- Stefan Sundin <stefan@stefansundin.com>  Wed, 16 Dec 2015 18:47:15 -0800
+
 powermate (3-1) vivid; urgency=medium
 
   * Initial release.

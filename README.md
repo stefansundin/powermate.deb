@@ -8,7 +8,7 @@ For installation instructions, go to: https://launchpad.net/~stefansundin/+archi
 ### Prerequisites
 
 ```bash
-sudo apt-get install devscripts debhelper libpulse-dev
+sudo apt-get install git build-essential devscripts debhelper libpulse-dev
 ```
 
 ### Build
@@ -16,11 +16,11 @@ sudo apt-get install devscripts debhelper libpulse-dev
 ```bash
 mkdir powermate
 cd powermate
-wget https://github.com/stefansundin/powermate-linux/archive/master.tar.gz -O powermate_3.orig.tar.gz
-tar xzf powermate_3.orig.tar.gz
+wget https://github.com/stefansundin/powermate-linux/archive/master.tar.gz -O powermate_4.orig.tar.gz
+tar xzf powermate_4.orig.tar.gz
 cd powermate-linux-master
 git clone https://github.com/stefansundin/powermate.deb.git debian
-debuild
+debuild -i -us -uc -b
 ```
 
 
