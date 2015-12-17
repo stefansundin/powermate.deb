@@ -1,5 +1,7 @@
 # powermate.deb
 
+Debian package of https://github.com/stefansundin/powermate-linux
+
 For installation instructions, go to: https://launchpad.net/~stefansundin/+archive/ubuntu/powermate
 
 
@@ -16,8 +18,8 @@ sudo apt-get install git build-essential devscripts debhelper libpulse-dev
 ```bash
 mkdir powermate
 cd powermate
-wget https://github.com/stefansundin/powermate-linux/archive/master.tar.gz -O powermate_4.orig.tar.gz
-tar xzf powermate_4.orig.tar.gz
+wget https://github.com/stefansundin/powermate-linux/archive/master.tar.gz -O powermate_5.orig.tar.gz
+tar xzf powermate_5.orig.tar.gz
 cd powermate-linux-master
 git clone https://github.com/stefansundin/powermate.deb.git debian
 debuild -i -us -uc -b

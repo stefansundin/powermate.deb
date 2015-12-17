@@ -1,3 +1,9 @@
+powermate (5-1) wily; urgency=medium
+
+  * Properly detect new sink volume.
+
+ -- Stefan Sundin <stefan@stefansundin.com>  Wed, 16 Dec 2015 21:52:21 -0800
+
 powermate (4-1) wily; urgency=medium
 
   * Detect sink change.
