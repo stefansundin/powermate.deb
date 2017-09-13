@@ -1,3 +1,9 @@
+powermate (5-2) xenial; urgency=low
+
+  * Add armhf build (for Raspberry Pi).
+
+ -- Stefan Sundin <stefan@stefansundin.com>  Tue, 12 Sep 2017 22:41:15 -0700
+
 powermate (5-1) wily; urgency=medium
 
   * Properly detect new sink volume.
