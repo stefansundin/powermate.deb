@@ -18,16 +18,18 @@ sudo apt-get install git build-essential devscripts debhelper libpulse-dev
 ```bash
 mkdir powermate
 cd powermate
-# to download latest master for new release:
-wget https://github.com/stefansundin/powermate-linux/archive/master.tar.gz -O powermate_5.orig.tar.gz
-# to use exact same orig file as last release:
-wget https://launchpad.net/~stefansundin/+archive/ubuntu/powermate/+files/powermate_5.orig.tar.gz
-tar xzf powermate_5.orig.tar.gz
-cd powermate-linux-master
+git clone --recursive https://github.com/stefansundin/powermate-linux.git
+cd powermate-linux
 git clone https://github.com/stefansundin/powermate.deb.git debian
 debuild -i -us -uc -b
 ```
 
+Release build:
+```bash
+tar czf ../powermate_6.orig.tar.gz 60-powermate.rules main.c Makefile powermate.toml README.md tomlc99
+debuild -S
+dput ppa:stefansundin/powermate ../powermate_6-1_source.changes
+```
 
 ## Misc
 

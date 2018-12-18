@@ -13,8 +13,10 @@ Description: Linux driver for the Griffin PowerMate, for use with PulseAudio.
  Hold down the knob for one second to activate "movie mode". Operation is the
  same except the LED stays off.
  .
- After installing, run `powermate` on the command line. An autostart entry will
- been added so this should happen automatically on your next login.
+ After installing, run `powermate` on the command line. An autostart entry is
+ automatically added so you only need to start it manually once.
+ .
+ See /etc/powermate.toml for configuration options.
  .
  PowerMate is a registered trademark of Griffin Technologies Inc. This software
  is not affiliated or endorsed by them.

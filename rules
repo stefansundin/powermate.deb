@@ -43,6 +43,7 @@ binary-arch: build install
 	dh_installdocs
 	dh_installchangelogs
 	install -m 644 -D 60-powermate.rules debian/powermate/lib/udev/rules.d/60-powermate.rules
+	install -m 644 -D powermate.toml debian/powermate/etc/powermate.toml
 	install -m 644 -D debian/powermate.png debian/powermate/usr/share/pixmaps/powermate.png
 	install -m 644 -D debian/powermate-autostart.desktop debian/powermate/etc/xdg/autostart/powermate.desktop
 	dh_compress
