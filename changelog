@@ -1,3 +1,12 @@
+powermate (7-1) bionic; urgency=medium
+
+  * Execute knob action on release so it can be skipped when long pressing.
+  * Add `-c` option to specify a config file. This makes it possible to run
+    multiple instances of the program, each using their own config file,
+    in order to control multiple devices.
+
+ -- Stefan Sundin <stefan@stefansundin.com>  Mon, 24 Dec 2018 10:50:51 -0800
+
 powermate (6-1) xenial; urgency=medium
 
   * Adjust the volume proportionally between the channels.

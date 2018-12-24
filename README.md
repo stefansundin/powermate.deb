@@ -26,9 +26,9 @@ debuild -i -us -uc -b
 
 Release build:
 ```bash
-tar czf ../powermate_6.orig.tar.gz 60-powermate.rules main.c Makefile powermate.toml README.md tomlc99
+tar cvzf ../powermate_7.orig.tar.gz 60-powermate.rules main.c Makefile powermate.toml README.md --exclude='.*' tomlc99
 debuild -S
-dput ppa:stefansundin/powermate ../powermate_6-1_source.changes
+dput ppa:stefansundin/powermate ../powermate_7-1_source.changes
 ```
 
 ## Misc
