@@ -9,6 +9,7 @@ Homepage: https://github.com/stefansundin/powermate.deb
 Package: powermate
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: xdotool
 Description: Linux driver for the Griffin PowerMate, for use with PulseAudio.
  Hold down the knob for one second to activate "movie mode". Operation is the
  same except the LED stays off.
