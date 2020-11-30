@@ -1,2 +1,2 @@
-#!/bin/bash -e
-ppastats stefansundin powermate -o .
+#!/bin/bash -ex
+multipass exec ppastats -- ppastats stefansundin powermate -o /home/ubuntu/powermate
