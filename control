@@ -1,9 +1,9 @@
 Source: powermate
 Section: utils
-Priority: extra
+Priority: optional
 Maintainer: Stefan Sundin <stefan@stefansundin.com>
-Build-Depends: debhelper (>= 9.20120909), libpulse-dev
-Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 12~), libpulse-dev
+Standards-Version: 4.5.0
 Homepage: https://github.com/stefansundin/powermate.deb
 
 Package: powermate

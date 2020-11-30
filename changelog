@@ -1,3 +1,16 @@
+powermate (8-1) focal; urgency=medium
+
+  * Load config from `$XDG_CONFIG_HOME/powermate.toml`
+    (usually `~/.config/powermate.toml`) instead of
+    `$HOME/.powermate.toml`.
+  * Rename `knob_command` setting to `press_command`.
+  * Add `sink_name` setting to control a specific sink.
+  * Add `press_clock_wise_command` and `press_counter_clock_wise_command`
+    settings.
+  * Do not change the volume if turning the knob while it is depressed.
+
+ -- Stefan Sundin <stefan@stefansundin.com>  Sun, 29 Nov 2020 15:12:59 -0800
+
 powermate (7-1) bionic; urgency=medium
 
   * Execute knob action on release so it can be skipped when long pressing.

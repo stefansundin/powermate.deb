@@ -1,5 +1,6 @@
 /powermate
 /files
 /.debhelper
+debhelper-build-stamp
 *.debhelper.log
 *.substvars
