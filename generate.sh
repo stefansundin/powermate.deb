@@ -1,2 +1,2 @@
 #!/bin/bash -ex
-multipass exec ppastats -- ppastats stefansundin powermate -o /home/ubuntu/powermate
+docker run -v $PWD:/mnt stefansundin/ppastats ppastats stefansundin powermate -o /mnt
